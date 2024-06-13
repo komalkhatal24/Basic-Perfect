@@ -11,7 +11,7 @@ int fact(int n){
 int main(){
     int n;
     cin>>n;
-    int ans=fact(n);
-    cout<<"Factirial is "<<ans<<endl;
+    // int ans=fact(n);
+    cout<<"Factorial is "<<fact(n)<<endl;
     return 0;
 }
