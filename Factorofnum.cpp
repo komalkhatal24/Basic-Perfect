@@ -8,9 +8,9 @@ int main(){
     cout<<"Facror of "<<num <<"Are"<<endl;
     for(int i=1;i<=num;i++){
        if(num%i==0)
-{
+{ 
     cout<<i<<" ";
-}    }
+} 
+   }
 return 0;
-
 }
