@@ -9,6 +9,6 @@ int main(){
     for(int i=0;str[i]>0;i++){
         length++;
     }
-    cout<<length;
+    cout<<"Lenghth is "<<length;
     return 0;
 }
