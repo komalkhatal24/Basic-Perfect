@@ -1,7 +1,7 @@
 //Sum of Natural numbers
 #include<iostream>
 using namespace std;
-int allSum(int n){
+int naturalSum(int n){
    int sum=0;
    for(int i=1;i<=n;i++){
     sum=sum+i;}
@@ -11,6 +11,6 @@ int main(){
     int n;
     cout<<"Enter a number: ";
     cin>>n;
-    cout<<allSum(n);
+    cout<<naturalSum(n);
     return 0;
 }
