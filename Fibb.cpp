@@ -11,8 +11,7 @@ void fib(int n){
     t1=t2;t2=t3;
    
    } 
-    return ;
-   
+    return ; 
 }
 int main(){
     int n;
