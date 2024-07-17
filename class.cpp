@@ -15,9 +15,20 @@ class Teacher{
     private:
     double salary;
     public:
+     string name;
+    string sub;
+    string dept;
 //Non parametrizees constructor
-Teacher(){
-    dept="CS"; 
+// Teacher(){
+//     dept="CS"; 
+// }
+
+//custom copy constructor
+Teacher(Teacher &orgObj){
+    cout<<"custom c c"<<endl;
+    this->name=orgObj.name;
+    this->dept=orgObj.dept;
+    this->sub=orgObj.sub;
 }
 
 //Parametrized constructor
@@ -26,9 +37,7 @@ Teacher(string n,string s,double sal){
     sub=s;
     salary=sal;
 }
-    string name;
-    string sub;
-    string dept;
+   
 
     void changeDept(string newDept){
         dept=newDept;
@@ -56,6 +65,8 @@ int main(){
     // t1.setSalary(250000);
     // cout<<t1.name<<endl;
     // cout<<t1.getSalary()<<endl;
-    t1.getInfo();
+    // t1.getInfo();
+    Teacher t2(t1);//default copy constructor
+    t2.getInfo();
     return 0;
 }
