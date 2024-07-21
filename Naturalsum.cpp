@@ -12,5 +12,6 @@ int main(){
     cout<<"Enter a number: ";
     cin>>n;
     cout<<naturalSum(n);
+
     return 0;
 }
