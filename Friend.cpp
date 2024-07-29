@@ -12,9 +12,8 @@ void getfunction(){
 }
 friend string AllColor();
 };
-
- string AllColor(){
-   
+string AllColor(){
+   cout<<();
 };
 int main(){
     Car Nano;
