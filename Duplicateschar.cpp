@@ -1,3 +1,4 @@
+//print the duplicates count in the string
 #include<iostream>
 #include<algorithm>
 using namespace std;
