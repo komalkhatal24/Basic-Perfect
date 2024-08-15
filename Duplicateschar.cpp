@@ -10,11 +10,13 @@ void printDuplicates(string str){
        count++;
        i++;
     }
+    //
     if(count>1){
         cout<<str[i]<<" count= "<<count<<endl;
     }
     }
 }
+
 int main(){
     string str;
     cin>>str;
