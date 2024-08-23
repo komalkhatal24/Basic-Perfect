@@ -9,7 +9,7 @@ int main(){
     while(i<j){
         if(s[i]==s[j]){
             i++;
-            j--;b
+            j--;
             
         }
         else{
